@@ -1,3 +1,10 @@
+---
+title: This is my title
+layout: post
+---
+
+
+
 ## Welcome asdnlasnfj kdnaskjdn aslnd,m asd,msad,msa d,mas d,masxda
 
 You can use the [editor on GitHub](https://github.com/gabehab/cp202/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
