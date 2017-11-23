@@ -12,7 +12,7 @@
         {% if nav.subcategories != null %}
             <a class="navbar-item" href="{{ site.url }}{{ nav.url }}">{{ nav.title }} ▼</a>
             {% for subcategory in nav.subcategories %}
-              <li><a  class="navbar-item" href="{{ site.url }}{{ subcategory.subhref }}">{{ subcategory.subtitle }}</a></li>
+              <a  class="navbar-item" href="{{ site.url }}{{ subcategory.subhref }}">{{ subcategory.subtitle }}</a>
             {% endfor %}
         {% elsif nav.title == page.title %}
              <a class="navbar-item active" href="{{ nav.url }}">{{ nav.title }}</a>

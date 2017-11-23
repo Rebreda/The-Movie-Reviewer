@@ -3,6 +3,13 @@
 
 @import "{{ site.theme }}";
 
+html, body, section, nav{
+  font-family: 'Barlow Semi Condensed', sans-serif !important;
+}
+
+
 header{
-  background:  orange !important;
+  background:  white !important;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+
 }

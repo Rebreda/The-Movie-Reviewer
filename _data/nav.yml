@@ -5,8 +5,10 @@
   href: "/about/"
 
 - title: "All Reviews"
-  subcategories:
-    - subtitle: "Example1"
-      subhref: "#"
-    - subtitle: "Example2"
-      subhref: "#"
+  href: "/reviews/"
+
+  # subcategories:
+  #   - subtitle: "Example1"
+  #     subhref: "#"
+  #   - subtitle: "Example2"
+  #     subhref: "#"
