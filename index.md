@@ -1,4 +1,3 @@
-{% include nav.html nav=site.data.nav %}
 
 
 
