@@ -1,3 +1,7 @@
+{% include nav.html nav=site.data.nav %}
+
+
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/gabehab/cp202/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
