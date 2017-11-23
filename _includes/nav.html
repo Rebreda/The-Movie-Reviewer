@@ -17,6 +17,8 @@
         {% elsif nav.title == page.title %}
              <a class="navbar-item active" href="{{ nav.url }}">{{ nav.title }}</a>
         {% else %}
+            <a class="navbar-item" href="{{ nav.url }}">{{ nav.title }}</a>
+
         {% endif %}
       {% endfor %}
     </div>
