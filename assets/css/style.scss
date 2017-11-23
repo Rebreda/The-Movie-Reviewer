@@ -9,7 +9,14 @@ html, body, section, nav{
 
 
 header{
-  background:  white !important;
+  // background:  white !important;
   font-family: 'Barlow Semi Condensed', sans-serif;
+}
 
+nav.navbar {
+  background: 0 0;
+}
+
+.navbar-item > h2  {
+  color: black; 
 }
