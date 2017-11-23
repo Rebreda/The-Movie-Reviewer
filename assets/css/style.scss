@@ -9,7 +9,7 @@ html, body, section, nav{
 
 
 header{
-  // background:  white !important;
+  background:  #3273dc !important;
   font-family: 'Barlow Semi Condensed', sans-serif;
 }
 
@@ -17,6 +17,6 @@ nav.navbar {
   background: 0 0;
 }
 
-.navbar-item > h2  {
-  color: black; 
+a.navbar-item  h2  {
+  color: black;
 }
