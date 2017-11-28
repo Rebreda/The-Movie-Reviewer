@@ -1,17 +1,17 @@
 <div class="reviews">
   {% for post in site.posts %}
   <a href="{{ post.url }}">
-  <div class="reviews box">
-    {% if post.heroImg %}
-      <img class="r-img" src=" {{post.heroImg}}" alt="Movie Poster">
-    {% endif %}
-    <div class="media-content">
-      <div class="content">
-        <h2 class=""> {{ post.title }} </h2>
-        {{ post.excerpt }}
+    <div class="reviews box">
+      {% if post.heroImg %}
+        <img class="r-img" src=" {{post.heroImg}}" alt="Movie Poster">
+      {% endif %}
+      <div class="media-content">
+        <div class="content">
+          <h2 class=""> {{ post.title }} </h2>
+          {{ post.excerpt }}
+        </div>
       </div>
     </div>
-  </div>
   </a>
   {% endfor %}
 </div>
