@@ -32,11 +32,12 @@ a.navbar-item h2 {
     width: 100%;
     object-fit: cover;
     max-height: 300px;
+    border-radius: 10px 10px 0px 0px;
   }
 
   h1:before, h2:before, h3:before, h4:before {
     content: "" !important;
-    padding-right: 0 !important; 
+    padding-right: 0 !important;
     margin-left: 0em !important;
   }
 

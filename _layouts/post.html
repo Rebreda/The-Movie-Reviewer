@@ -4,9 +4,15 @@ layout: default
 <div class="post">
 
   <header class="post-header">
+
+
+    {% if post.heroImg %}
+      <img class="r-img" src=" {{post.heroImg}}" alt="Movie Poster">
+    {% endif %}
+    
     <h1 class="post-title">{{ page.title }}</h1>
   </header>
-  
+
   <article class="post-content">
     {{ content }}
   </article>
