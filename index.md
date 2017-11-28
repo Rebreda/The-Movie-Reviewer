@@ -1,6 +1,6 @@
 
 
-### Most Recent Movie Reviews
+# Most Recent Movie Reviews
 
 
 {% include postList.html %}
