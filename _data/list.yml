@@ -1,4 +1,8 @@
 toc:
-  - title: Group 1
+  - title: Best Movie Ever
+    subfolderitems:
+      - movie: Batman
+      - movie: Swag
+      - movie: 23asdfas
   - title: Group 2
   - title: Group 3
