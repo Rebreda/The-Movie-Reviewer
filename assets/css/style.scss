@@ -29,6 +29,7 @@ a.navbar-item h2 {
     color: #0e0e0e;
     letter-spacing: 0.3px;
   }
+  
   .media-content {
     padding: 15px !important;
   }
@@ -36,6 +37,7 @@ a.navbar-item h2 {
   .r-img {
     width: 100%;
     object-fit: cover;
+    min-height: 150px;
     max-height: 300px;
     border-radius: 10px 10px 0px 0px;
   }

@@ -1,0 +1,9 @@
+{% for list in site.data.top5 %}
+  <h3> {{ list.title } }</h3>
+  <ul>  
+  {% for movie in list %}
+    <h3> {{ movie.movie } }</h3>
+    {% endfor %}
+  </ul>
+
+{% endfor %}
