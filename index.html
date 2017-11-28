@@ -1,18 +1,8 @@
 {% include nav.html nav=site.data.menu %}
 
-<h1> This is a big hero title </h1>
-<ul>
-  {% for post in site.posts %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-    </li>
-  {% endfor %}
-</ul>
-
+{% include postList.html %}
 
 <p> Stuff stuff stuff </p>
-
-
 
 ## Welcome to GitHub Pages
 
