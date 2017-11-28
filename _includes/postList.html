@@ -1,20 +1,13 @@
 <div class="reviews">
   {% for post in site.posts %}
-
-  <div class="box">
-    <article class="media">
-      <div class="media-left">
-        <figure class="image is-128x128">
-          <img src="https://bulma.io/images/placeholders/128x128.png" alt="Image">
-        </figure>
+  <div class="reviews box">
+    <img src="https://rga.revues.org/docannexe/image/1249/img-4-small580.jpg" alt="Image">
+    <div class="media-content">
+      <div class="content">
+        <a href="The-Movie-Reviewer/{{ post.url }}">{{ post.title }}</a>
+        {{ post.excerpt }}
       </div>
-      <div class="media-content">
-        <div class="content">
-          <a href="{{ post.url }}">{{ post.title }}</a>
-          {{ post.excerpt }}
-        </div>
-      </div>
-    </article>
+    </div>
   </div>
   {% endfor %}
 </div>
