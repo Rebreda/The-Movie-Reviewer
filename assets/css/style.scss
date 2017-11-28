@@ -17,6 +17,11 @@ header {
 
 nav.navbar {
   background: 0 0;
+
+  .navbar-menu{
+    display: block;
+    background: transparent; 
+  }
 }
 
 a.navbar-item h2 {
