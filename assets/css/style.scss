@@ -17,11 +17,22 @@ header {
 
 nav.navbar {
   background: 0 0;
-
+  #brand:hover{
+    background: 0 0;
+    
+  }
   .navbar-menu{
     display: flex;
+    color: white;
+
     @media screen and (max-width: 1023px){
       display: block;
+
+      a.navbar-item {
+        background: 0 0;
+        color: white;
+        text-align: center;
+      }
     }
     background: transparent;
   }
