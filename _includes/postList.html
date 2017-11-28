@@ -2,7 +2,9 @@
   {% for post in site.posts %}
   <a href="{{ post.url }}">
   <div class="reviews box">
-    <img class="r-img" src="https://rga.revues.org/docannexe/image/1249/img-4-small580.jpg" alt="Image">
+    {% if post.heroImg %}
+      <img class="r-img" src=" {{post.heroImg}}" alt="Movie Poster">
+    {% endif %}
     <div class="media-content">
       <div class="content">
         <h2 class=""> {{ post.title }} </h2>
