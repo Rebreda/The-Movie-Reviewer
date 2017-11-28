@@ -1,7 +1,8 @@
 <div class="reviews">
   {% for post in site.posts %}
-  <a href="/{{ post.url }}">
     <div class="reviews box">
+      <a href="/{{ post.url }}">
+
       {% if post.heroImg %}
         <img class="r-img" src=" {{post.heroImg}}" alt="Movie Poster">
       {% endif %}
@@ -11,7 +12,7 @@
           {{ post.excerpt }}
         </div>
       </div>
+    </a>
     </div>
-  </a>
   {% endfor %}
 </div>
