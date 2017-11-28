@@ -1,8 +1,8 @@
-{% for list in site.data.top5 %}
+{% for list in site.data.top5.mlist %}
   <h3> {{ list.title } }</h3>
   <ul>
-  {% for movie in list.sublist %}
-    <h3> {{ movie.movie } }</h3>
+  {% for item in list.subfolderitems %}
+    <h3> {{ item.movie } }</h3>
     {% endfor %}
   </ul>
 
