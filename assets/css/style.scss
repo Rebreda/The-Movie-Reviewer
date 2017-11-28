@@ -59,5 +59,10 @@ a.navbar-item h2 {
     color: #4a4a4a;
     display: block;
     padding: 0 !important;
+
+    &:nth-child(n+2) {
+    width: 49%;
+    margin: 0;
+    display: inline-block;
   }
 }
