@@ -3,13 +3,15 @@
 
 @import "{{ site.theme }}";
 
-html, body, section, nav{
+body,
+html,
+nav,
+section {
   font-family: 'Barlow Semi Condensed', sans-serif !important;
 }
 
-
-header{
-  background:  #3273dc !important;
+header {
+  background: #3273dc !important;
   font-family: 'Barlow Semi Condensed', sans-serif;
 }
 
@@ -17,17 +19,30 @@ nav.navbar {
   background: 0 0;
 }
 
-a.navbar-item  h2  {
+a.navbar-item h2 {
   color: black;
 }
 
-.media-content{
-  padding: 15px !important;
-}
-.box{
-  background-color: white;
-  border-radius: 10px;
-  color: #4a4a4a;
-  display: block;
-  padding: 0px !important;
+#main-content {
+  .media-content {
+    padding: 15px !important;
+  }
+
+  .r-img {
+    width: 100%;
+    object-fit: cover;
+    max-height: 300px;
+  }
+
+  h3:before {
+    content: "" !important;
+  }
+
+  .box {
+    background-color: white;
+    border-radius: 10px;
+    color: #4a4a4a;
+    display: block;
+    padding: 0 !important;
+  }
 }
