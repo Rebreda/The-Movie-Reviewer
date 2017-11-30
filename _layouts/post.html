@@ -20,7 +20,7 @@ layout: default
       {% for star in (1.. page.rating) %}
         <i class="fa fa-star" aria-hidden="true"></i>
       {% endfor %}
-      {% for star in (1.. page.rating-5) %}
+      {% for star in (0.. page.rating-5) %}
         <i class="fa fa-star-o" aria-hidden="true"></i>
       {% endfor %}
     </div>
