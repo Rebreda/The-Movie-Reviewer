@@ -3,7 +3,7 @@ layout: default
 ---
 <div class="post">
 
-  <header class="post-header">
+  <div class="post-hero">
 
 
     {% if page.heroImg %}
@@ -11,17 +11,21 @@ layout: default
     {% endif %}
 
     <h1 class="post-title">{{ page.title }}</h1>
+
+  </div>
+  <section class="summary">
     {% if page.rating %}
     <div id = "rating">
+      <h3>Movie Rating: </h3>
       {% for star in (1.. page.rating) %}
         <i class="fa fa-star" aria-hidden="true"></i>
       {% endfor %}
+      {% for star in (1.. page.rating-5) %}
+        <i class="fa fa-star-o" aria-hidden="true"></i>
+      {% endfor %}
     </div>
     {% endif %}
-
-
-  </header>
-
+  </section>
   <article class="post-content">
     {{ content }}
   </article>

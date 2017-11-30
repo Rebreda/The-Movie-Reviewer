@@ -19,7 +19,7 @@ nav.navbar {
   background: 0 0;
   #brand:hover{
     background: 0 0;
-    
+
   }
   .navbar-menu{
     display: flex;
@@ -94,5 +94,19 @@ a.navbar-item h2 {
         max-height: 150px;
       }
     }
+  }
+}
+
+#rating{
+  height: 100px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  background: white;
+  i.fa-star, i.fa-star-o{
+    color: gold;
+    font-size: 50px;
+    text-align: center;
+    vertical-align: middle;
   }
 }
