@@ -1,8 +1,10 @@
 {% for item in site.data.list.toc %}
+  <div class="list">
     <h3>{{ item.title }}</h3>
       <ul>
         {% for entry in item.subfolderitems %}
           <li>{{ entry.movie }}</li>
         {% endfor %}
       </ul>
+    </div>
   {% endfor %}
