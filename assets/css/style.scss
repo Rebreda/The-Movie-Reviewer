@@ -23,6 +23,7 @@ header {
 
 nav.navbar {
   background: 0 0;
+  box-shadow: 0; 
   #brand:hover{
     background: 0 0;
 
@@ -36,6 +37,7 @@ nav.navbar {
 
       a.navbar-item {
         background: 0 0;
+
         color: white;
         text-align: center;
       }
