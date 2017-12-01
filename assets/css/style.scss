@@ -17,7 +17,7 @@ html, body{
 }
 
 header {
-  background: #3273dc !important;
+  background: url(https://imgur.com/Iji8F3G.png) #3273dc !important;
   font-family: 'Barlow Semi Condensed', sans-serif;
 }
 
@@ -45,12 +45,14 @@ nav.navbar {
     background: transparent;
   }
 }
-
+.navbar-item, .navbar-link{
+  color: white;
+}
 a.navbar-item h2 {
   font-size: 40px;
   font-weight: 600;
   letter-spacing: 1px;
-  color: white;
+  color: lightgray;
   font-family: sans-serif;
 }
 
